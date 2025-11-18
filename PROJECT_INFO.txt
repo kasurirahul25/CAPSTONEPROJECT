@@ -1,0 +1,74 @@
+﻿PRESCRIPTO - Complete Healthcare Management System
+===================================================
+
+PROJECT OVERVIEW:
+-----------------
+A comprehensive healthcare management platform with:
+- Patient Registration & Authentication
+- Doctor Management (10 Doctors, All Specialties)
+- Appointment Booking System
+- AI Health Chatbot with Health Screening
+- Prescription Management
+- Profile Management with Health Metrics
+
+TECHNOLOGY STACK:
+-----------------
+Frontend: React.js + Vite + TailwindCSS
+Backend: Node.js + Express.js + MongoDB
+Database: MongoDB with Mongoose ODM
+Authentication: JWT + bcryptjs
+AI: Google Gemini API (for Chatbot)
+Image Storage: Cloudinary (optional)
+
+PROJECT STRUCTURE:
+-----------------
+PRESCRIPTO/
+ backend/          # Node.js Backend API
+ frontend/         # React Frontend Application
+ README.md        # This file
+
+INSTALLATION INSTRUCTIONS:
+-------------------------
+
+1. BACKEND SETUP:
+   - Navigate to backend directory: cd backend
+   - Install dependencies: npm install
+
+2. FRONTEND SETUP:
+   - Navigate to frontend directory: cd frontend
+   - Install dependencies: npm install
+
+3. DATABASE SETUP:
+   - Install MongoDB on your system
+   - Create a .env file in backend directory with:
+     - MONGODB_URL=your_mongodb_connection_string
+     - JWT_SECRET=your_secret_key
+     - GEMINI_API_KEY=your_gemini_api_key (optional for AI chatbot)
+
+4. RUN THE APPLICATION:
+   - Start Backend: cd backend && npm start
+   - Start Frontend: cd frontend && npm run dev
+
+5. SEED DATABASE:
+   - To add doctors: cd backend && node seedDoctors.js
+
+FEATURES:
+---------
+ User Authentication (Register/Login)
+ Profile Management with Health Info
+ Doctor Directory (10 Specialties)
+ Appointment Booking System
+ AI Health Chatbot with Screening
+ Medication Suggestions Database
+ Prescription Management
+ Responsive Modern UI
+
+DEFAULT CREDENTIALS (for testing):
+-----------------------------------
+- Email: test@example.com
+- Password: password123
+
+CONTACT: 
+--------
+For issues or questions, refer to the codebase documentation.
+
